@@ -29,7 +29,7 @@ services:
     image: lscr.io/linuxserver/deluge:latest
     container_name: deluge
     environment:
-      - HOSTNAME=”Deluge”
+      - HOSTNAME=”Deluges”
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
